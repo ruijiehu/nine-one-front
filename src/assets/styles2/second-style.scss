@@ -1,0 +1,70 @@
+.app-container {
+    .el-form--inline {
+        display: flex;
+    }
+
+    .el-form-item {
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        margin-right: 20px;
+
+        .el-form-item__label {
+            height: 34px !important;
+            line-height: 34px !important;
+            border: 1px solid #e7e7e7;
+            border-radius: 4px 0 0 4px;
+            border-right: 0.44px dashed #e7e7e7;
+            font-size: 14px;
+            color: #5b5e74;
+            text-align: center;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .el-input--small {
+            font-size: 14px;
+        }
+
+        .el-form-item__content {
+            height: 34px !important;
+            line-height: 34px !important;
+
+            .el-input__inner {
+                height: 34px !important;
+                line-height: 34px !important;
+                border: 1px solid #e7e7e7 !important;
+                border-left: none;
+                border-radius: 0 4px 4px 0;
+                box-sizing: border-box;
+            }
+
+            .el-button--medium {
+                padding: 9px 20px !important;
+            }
+        }
+
+    }
+
+    .el-form--inline {
+        border-bottom: 1px solid #eaecf7;
+        margin-bottom: 23px;
+    }
+
+    .el-table th.el-table__cell {
+        background-color: #eaecf7 !important;
+        font-size: 14px;
+        height: 44px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #5b5e74;
+    }
+
+    .el-table__row {
+        height: 57px;
+    }
+
+    .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+        background: #ffffff !important;
+    }
+}

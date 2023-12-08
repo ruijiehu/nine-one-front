@@ -1,0 +1,27 @@
+const settings = {
+  name: 'base-gauge',
+  type: '仪表盘',
+  settings: `
+  const option = {
+    tooltip: {
+        formatter: '{a} <br/>{b} : {c}%'
+      },
+      series: [
+        {
+          name: 'Pressure',
+          type: 'gauge',
+          detail: {
+            formatter: '{value}'
+          },
+          data: [
+            {
+              value: 50,
+              name: 'SCORE'
+            }
+          ]
+        }
+      ]
+      }`
+}
+export default settings
+
